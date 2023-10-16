@@ -1,0 +1,29 @@
+.card {
+    width: 20rem;
+    text-align: center;
+    margin-left: 30px;
+  }
+  
+  .card {
+    color: white;
+    background: black;
+    /* Semi-transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white border */
+  
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    /* White shadow with opacity */
+    animation: glassyAnimation infinite alternate;
+  }
+
+  .card {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    height: 350px;
+    /* Expand the card height on hover */
+  }
